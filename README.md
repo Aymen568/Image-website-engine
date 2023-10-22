@@ -3,5 +3,5 @@ This project utilizes Elasticsearch to store data and offers two primary functio
 1. Similarity Search: It retrieves the most similar images to a provided reference image.</br>
 1. Database search: It conducts searches based on image tags, enabling users to find images that match specific descriptors.</br>
 
-TH project is deployed using Docker and DockerCompose.
+The project is deployed using Docker and DockerCompose.
 
