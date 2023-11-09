@@ -38,7 +38,7 @@ def search_by_image_query(feature_vector=None, number = 0):
             path = hit['_source']["path"]
             with column[j % images_per_column]:
                 image = Image.open(path)
-                st.image(image, caption="Image from Elasticsearch", use_column_width=True)
+                st.image(image, caption="Image from Elasticsearch n*{}".format(j), use_column_width=True)
 
 def is_valid_image_url(url):
     try:
@@ -54,12 +54,12 @@ es = Elasticsearch("http://localhost:9200")
 # Streamlit interface
 st.set_page_config(
     page_title="Image Web Search",
-    page_icon="Search engine.png",
+    page_icon="media\Search Engine.png",
     layout="wide"  # Use a wide layout to control the placement of the elements
 )
 col1,col2 = st.columns([1,5])
 # App Logo (top left of the left column)
-app_logo = Image.open("Search Engine.png")  # Replace with your app's logo
+app_logo = Image.open("media\Search Engine.png")  # Replace with your app's logo
 col1.image(app_logo, use_column_width=False, width=150)
 col2.markdown("<h1 style='color: red; text-align: left;'>Image Web Search</h1>", unsafe_allow_html=True)
 
@@ -68,7 +68,7 @@ def main_page():
     option = st.sidebar.selectbox("Search by", ["Tag", "Similarity"])
     if option == "Tag":
         tags_input = st.sidebar.text_input("Enter Tags (comma-separated)", "")
-        num_results = st.sidebar.slider("Select the number of pictures to display", min_value=1, max_value=10, value=5)
+        num_results = st.sidebar.slider("Select the number of pictures to display", min_value=1, max_value=20, value=4)
         if st.button("Search") or tags_input:
             # Split the input tags by commas and trim spaces
             tags = [tag.strip() for tag in tags_input.split(",")]
