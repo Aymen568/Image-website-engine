@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import streamlit as st
 
 # Define the main page
@@ -49,3 +50,6 @@ if page == "Main":
     main_page()
 elif page == "Information":
     information_page()
+=======
+
+>>>>>>> cc4bb1ac9d75efdad641106fd3514de1071cd2bb
