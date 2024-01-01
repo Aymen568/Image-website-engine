@@ -25,7 +25,7 @@ This project employs Elasticsearch to store data and provides two primary functi
 
 ## Results
 Below you can find some of the results:
-2. ![Architecture](/media/result1.png)
+![Architecture](/media/result1.png)
 
 ## 🔗 Deployment
 Both the API and frontend of the web application are efficiently containerized using Docker and docker-compose. For more details, refer to the comprehensive report.
@@ -43,8 +43,8 @@ In order to reproduce the project you have to:
     2- Move to the project directory.
 
     3- Get the data index.
-        * unzip data fromthe folder data/photo_metadat.zip
-        * change paths in the file models/create_data.py and run it to create feature vectors 
+        * Unzip data fromthe folder data/photo_metadat.zip
+        * Change paths in the file models/create_data.py and run it to create feature vectors 
         * Create a new index: execute the file create_index_flickrphotos.
         * Execute the file mapping.py
             
