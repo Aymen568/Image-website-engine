@@ -35,7 +35,7 @@ Both the API and frontend of the web application are efficiently containerized u
 - Backend Development: Flask
 - Database: Elasticsearch
 - Deployment: Docker
-- 
+
 ## Requirements
   - Elasticsearch 8.1.0
   - Elasticknn plgin 8.1.0 (You can install it from this link: https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
