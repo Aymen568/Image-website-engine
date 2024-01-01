@@ -1,7 +1,6 @@
 
 # <p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
 
-
 - Introduction
 - Functionnalities
 - Model Architecure 
@@ -9,10 +8,8 @@
 - Deployment
 - Tools
 - Installation
-
-
+  
 # Introduction 
-
 An image search engine that covers over 1 million annotated images from Open Images Dataset. Users can conveniently search using text, images, or a combination of both.
 
 ![Logo](/media/Search%20Engine.png)
@@ -20,6 +17,7 @@ An image search engine that covers over 1 million annotated images from Open Ima
 This project employs Elasticsearch to store data and provides two primary functions:
 1. Similarity Search: It retrieves the most similar images to a provided reference image.
 1. Database search: It conducts searches based on image tags, enabling users to find images that match specific descriptors.
+2. 
 ## Model Architecture
 ![Architecture](/media/transormation.png)
 
@@ -39,16 +37,12 @@ Both the API and frontend of the web application are efficiently containerized u
 In order to reproduce the project you have to:
 
     1- Clone the repository.
-
     2- Move to the project directory.
-
     3- Get the data index.
         * Unzip data fromthe folder data/photo_metadat.zip
         * Change paths in the file models/create_data.py and run it to create feature vectors 
         * Create a new index: execute the file create_index_flickrphotos.
         * Execute the file mapping.py
-            
-
     4- Run docker-compose up --build Once these steps are done, the web application should start in the browser.
     5- U can also execute the app.py.
 
