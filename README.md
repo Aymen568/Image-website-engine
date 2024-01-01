@@ -52,6 +52,6 @@ In order to reproduce the project you have to:
 
 ## Topics:
     1- Backend Development, deployment
-    3- Database Managment
+    2- Database Managment
     
 
