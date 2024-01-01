@@ -1,5 +1,5 @@
 
-<p align="center" style="font-size: 24px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
+<p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
 
 
 - Introduction
