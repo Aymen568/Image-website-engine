@@ -1,5 +1,6 @@
 
-<p align="center"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
+<p align="center" style="font-size: 24px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
+
 
 - Introduction
 - Functionnalities
