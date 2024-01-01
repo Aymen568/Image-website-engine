@@ -1,5 +1,6 @@
 
-## Content & Text Based Image Retrival Search Engine
+<p align="center"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
+
 - Introduction
 - Functionnalities
 - Model Architecure 
