@@ -1,9 +1,0 @@
-- kibana : data visualisation/ log analysis ...
-- elastic : textsearch ( also other things)
-- logstach /beatframwork: way to feed data into elastic search 
-- psuhed data from many machines
-- X pack : security_monitoring_alerting ....
-- 
-
-
-mapping : how to store yuour data.
