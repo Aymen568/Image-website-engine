@@ -7,7 +7,9 @@
 - Results
 - Deployment
 - Tools
+- Requirements
 - Installation
+- Topics
   
 # Introduction 
 An image search engine that covers over 1 million annotated images from Open Images Dataset. Users can conveniently search using text, images, or a combination of both.
@@ -31,8 +33,13 @@ Both the API and frontend of the web application are efficiently containerized u
 ## Tools
 - Frontend Development: Streamlit
 - Backend Development: Flask
+- Database: Elasticsearch
 - Deployment: Docker
-
+- 
+## Requirements
+  - Elasticsearch 8.1.0
+  - Elasticknn plgin 8.1.0 (You can install it from this link: https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
+    
 ## Installation
 In order to reproduce the project you have to:
 
@@ -45,10 +52,6 @@ In order to reproduce the project you have to:
         * Execute the file mapping.py
     4- Run docker-compose up --build Once these steps are done, the web application should start in the browser.
     5- U can also execute the app.py.
-
-## Requirements
-  - Elasticsearch 8.1.0
-  - Elasticknn plgin 8.1.0 (You can install it from this link :https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
 
 ## Topics:
     1- Backend Development, deployment
