@@ -13,7 +13,8 @@
 # Introduction 
 
 An image search engine that covers over 1 million annotated images from Open Images Dataset. Users can conveniently search using text, images, or a combination of both.
-![Logo]("/media/Search Engine.png")
+
+![Logo](/media/Search Engine.png)
 ## Functionnalities
 This project employs Elasticsearch to store data and provides two primary functions:
 1. Similarity Search: It retrieves the most similar images to a provided reference image.
