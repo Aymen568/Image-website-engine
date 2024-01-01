@@ -55,5 +55,9 @@ In order to reproduce the project you have to:
 ## Requirements
   - Elasticsearch 8.1.0
   - Elasticknn plgin 8.1.0 (You can install it from this link :https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
+
+## Topics:
+    1- Backend Development, deployment
+    3- Database Managment
     
 
