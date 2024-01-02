@@ -22,10 +22,10 @@ This project employs Elasticsearch to store data and provides two primary functi
 1. Similarity Search: It retrieves the most similar images to a provided reference image.
 2. Database search: It conducts searches based on image tags, enabling users to find images that match specific descriptors.
  
-## Model Architecture
+## 🔗Model Architecture
 ![Architecture](/media/transormation.png)
 
-## Results
+## 🔗Results
 Below you can find some of the results:
 ![Architecture](/media/result1.png)
 
