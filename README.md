@@ -16,6 +16,7 @@ An image search engine that covers over 1 million annotated images from Open Ima
 <div align="center">
   <img src="/media/Search%20Engine.png" alt="Logo" width="300" height="300">
 </div>
+
 ## 🔗Functionnalities
 This project employs Elasticsearch to store data and provides two primary functions:
 1. Similarity Search: It retrieves the most similar images to a provided reference image.
