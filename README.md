@@ -50,10 +50,10 @@ In order to reproduce the project you have to:
     3- Get the data index.
         * Unzip data fromthe folder data/photo_metadat.zip
         * Change paths in the file models/create_data.py and run it to create feature vectors 
-        * Create a new index: execute the file create_index_flickrphotos.
+        * Create a new index: execute the file create_index_flickrphotos.py
         * Execute the file mapping.py
     4- Run docker-compose up --build Once these steps are done, the web application should start in the browser.
-    5- U can also execute the app.py.
+    5- You can also execute the app.py.
 
 ## 🔗Topics:
     1- Backend Development, deployment
