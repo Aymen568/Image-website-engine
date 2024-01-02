@@ -11,7 +11,7 @@
 - Installation
 - Topics
   
-# 🔗Introduction 
+## 🔗Introduction 
 An image search engine that covers over 1 million annotated images from Open Images Dataset. Users can conveniently search using text, images, or a combination of both.
 <div align="center">
   <img src="/media/Search%20Engine.png" alt="Logo" width="300" height="300">
