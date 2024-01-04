@@ -1,8 +1,5 @@
 
-# <p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
-
-<p align="center">
-
+# <p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong>
 [Introduction](#introduction) |
 [Functionalities](#functionalities) |
 [Model Architecture](#model-architecture) |
