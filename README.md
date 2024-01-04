@@ -1,18 +1,7 @@
 
 # <p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
 
-<p align="center">
-  
-[Introduction](#introduction) |
-[Functionalities](#functionalities) |
-[Model Architecture](#model-architecture) |
-[Results](#results) |
-[Deployment](#deployment) |
-[Tools](#tools) |
-[Installation](#installation) |
-[Topics](#topics)
-
-</p>
+<p align="center"> [Introduction](#introduction) | [Functionalities](#functionalities) | [Model Architecture](#model-architecture) | [Results](#results) | [Deployment](#deployment) | [Tools](#tools) | [Installation](#installation) | [Topics](#topics) </p>
 
   
 ## 🔗Introduction 
@@ -39,7 +28,7 @@ Both the API and frontend of the web application are efficiently containerized u
 ## 🔗Tools
 - Frontend Development: Streamlit
 - Backend Development: Flask
-- Database: Elasticsearch 8.1.0 + Elasticknn plgin 8.1.0 (You can install it from this link: https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
+- Database: Elasticsearch 8.1.0 + Elasticknn plugin 8.1.0 (You can install it from this link: https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
 - Deployment: Docker
     
 ## 🔗Installation
