@@ -6,7 +6,6 @@
 [Results](#results) |
 [Deployment](#deployment) |
 [Tools](#tools) |
-[Requirements](#requirements) |
 [Installation](#installation) |
 [Topics](#topics)
 
@@ -37,12 +36,8 @@ Both the API and frontend of the web application are efficiently containerized u
 ## 🔗Tools
 - Frontend Development: Streamlit
 - Backend Development: Flask
-- Database: Elasticsearch
+- Database: Elasticsearch 8.1.0 + Elasticknn plgin 8.1.0 (You can install it from this link: https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
 - Deployment: Docker
-
-## 🔗Requirements
-  - Elasticsearch 8.1.0
-  - Elasticknn plgin 8.1.0 (You can install it from this link: https://github.com/alexklibisz/elastiknn/releases/tag/8.1.0.0)
     
 ## 🔗Installation
 In order to reproduce the project you have to:
