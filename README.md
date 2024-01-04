@@ -1,11 +1,9 @@
 
 # <p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
 
-# Content & Text Based Image Retrieval Search Engine
-
 <p align="center">
-  [Introduction](#introduction) | [Functionalities](#functionalities) | [Model Architecture](#model-architecture) | [Results](#results) | [Deployment](#deployment) | [Tools](#tools) | [Installation](#installation) | [Topics](#topics)
-</p>
+  [Introduction](#introduction) | [Functionalities](#functionalities) | [Model Architecture](#model-architecture) | [Results](#results) | [Deployment](#deployment) | [Tools](#tools) | [Installation](#installation) | [Topics](#topics) </p>
+
 
 
   
