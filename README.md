@@ -1,15 +1,20 @@
 
 # <p align="center" style="font-size: 60px;"><strong>Content & Text Based Image Retrieval Search Engine</strong></p>
 
-- Introduction
-- Functionnalities
-- Model Architecure 
-- Results
-- Deployment
-- Tools
-- Requirements
-- Installation
-- Topics
+<p align="center">
+
+[Introduction](#introduction) |
+[Functionalities](#functionalities) |
+[Model Architecture](#model-architecture) |
+[Results](#results) |
+[Deployment](#deployment) |
+[Tools](#tools) |
+[Requirements](#requirements) |
+[Installation](#installation) |
+[Topics](#topics)
+
+</p>
+
   
 ## 🔗Introduction 
 An image search engine that covers over 1 million annotated images from Open Images Dataset. Users can conveniently search using text, images, or a combination of both.
