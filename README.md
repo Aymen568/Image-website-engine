@@ -4,11 +4,7 @@
 [Functionalities](#functionalities) |
 [Model Architecture](#model-architecture) |
 [Results](#results) |
-[Deployment](#deployment) |
-[Tools](#tools) |
-[Requirements](#requirements) |
-[Installation](#installation) |
-[Topics](#topics)
+
 
 </p>
 
